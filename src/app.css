@@ -1,0 +1,104 @@
+@import 'tailwindcss';
+
+/*
+  Two palettes, one mechanism, and no media query anywhere in this file.
+
+  Light lives in `@theme` because that is the block Tailwind reads to build `bg-paper`,
+  `text-ink` and every `/N` mix of them. Dark is a plain override keyed on the attribute
+  src/theme.ts writes, because a second `@theme` is not an override at all: Tailwind
+  hoists every `@theme` into `:root`, so the `@media (prefers-color-scheme: dark)` that
+  used to wrap one was discarded and its values simply overwrote the light ones. The app
+  was dark for everyone from the day this file was written — measured 2026-09-22, the
+  built CSS carried `--color-paper` exactly once, holding the dark value. See the private design log.
+
+  `:root[data-theme='dark']` rather than a bare `[data-theme='dark']`, so the override
+  outranks `@theme`'s `:root` on specificity alone. Unlayered rules do already beat
+  `@layer theme`, but that is a second reason to hold and this file has had one cascade
+  surprise too many.
+
+  The switcher has three settings and the OS is one of them, so resolving it is
+  src/theme.ts's job. It writes the answer here as `light` or `dark`, and keeps writing
+  it as the OS moves.
+*/
+@theme {
+  --color-ink: oklch(0.21 0.02 265);
+  --color-paper: oklch(0.98 0.004 265);
+  /* A chip with news (Chips' `blink`): the Preview's, once the first build lands behind a pane. */
+  --animate-blink: blink 1s ease-in-out infinite;
+  @keyframes blink {
+    50% {
+      opacity: 0.2;
+    }
+  }
+}
+
+/*
+  `dark:` follows the switcher, not the OS. Tailwind's built-in variant is a
+  prefers-color-scheme query, which the attribute is now free to contradict: an OS in
+  light mode with the app switched to dark would have painted `text-amber-700` onto the
+  dark panel, which is the same class of bug as the one above.
+*/
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+:root {
+  /*
+    So the UA paints form controls, scrollbars and the overscroll canvas to match. The
+    code pane is a scrolling region several hundred lines tall; a light scrollbar down
+    the side of a dark editor is the tell that gives away a theme that stops at the
+    stylesheet.
+  */
+  color-scheme: light;
+
+  /*
+    Syntax colours for the code pane. Plain custom properties, not `@theme` tokens:
+    nothing reads them through a utility class — CodeMirror's generated stylesheet is
+    the only consumer. They flip below with ink and paper rather than on a query of
+    their own, which is what they used to do; that is why an OS in light mode got the
+    light syntax palette painted onto the permanently dark page.
+  */
+  --cm-keyword: oklch(0.52 0.19 300);
+  --cm-string: oklch(0.5 0.13 150);
+  --cm-number: oklch(0.55 0.15 55);
+  --cm-comment: oklch(0.62 0.02 265);
+  --cm-function: oklch(0.52 0.16 255);
+  --cm-def: oklch(0.45 0.12 255);
+  --cm-type: oklch(0.5 0.11 195);
+  --cm-tag: oklch(0.54 0.17 20);
+  --cm-attr: oklch(0.55 0.13 75);
+  --cm-punct: oklch(0.55 0.02 265);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-ink: oklch(0.95 0.01 265);
+  --color-paper: oklch(0.17 0.015 265);
+
+  --cm-keyword: oklch(0.78 0.14 300);
+  --cm-string: oklch(0.8 0.13 150);
+  --cm-number: oklch(0.82 0.13 65);
+  --cm-comment: oklch(0.62 0.02 265);
+  --cm-function: oklch(0.78 0.12 250);
+  --cm-def: oklch(0.85 0.09 250);
+  --cm-type: oklch(0.8 0.1 195);
+  --cm-tag: oklch(0.76 0.14 20);
+  --cm-attr: oklch(0.84 0.11 80);
+  --cm-punct: oklch(0.7 0.02 265);
+}
+
+/*
+  The start page's wash, after Lovable's: blue over pink over a warm bottom edge, fading into
+  the page at the top so the header sits on paper. One set of hues, and each theme its own
+  strength: at full strength on the light page the heading lost its contrast.
+*/
+.wash {
+  --wash-a: 0.55;
+  background:
+    radial-gradient(70% 38% at 50% 40%, oklch(0.62 0.19 262 / var(--wash-a)), transparent 70%),
+    radial-gradient(95% 45% at 50% 72%, oklch(0.72 0.2 345 / var(--wash-a)), transparent 72%),
+    radial-gradient(120% 42% at 50% 104%, oklch(0.7 0.2 35 / var(--wash-a)), transparent 76%);
+}
+
+:root[data-theme='dark'] .wash {
+  --wash-a: 0.9;
+}

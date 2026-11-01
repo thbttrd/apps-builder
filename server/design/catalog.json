@@ -1,0 +1,2787 @@
+{
+ "source": "https://github.com/VoltAgent/awesome-design-md",
+ "commit": "f6961238d5cddcf8042a74a70fc400ec67181abb",
+ "google": {
+  "Anton": {
+   "generic": "sans-serif",
+   "weights": [
+    400
+   ]
+  },
+  "Archivo Black": {
+   "generic": "sans-serif",
+   "weights": [
+    400
+   ]
+  },
+  "Arimo": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Barlow": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Cal Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400
+   ]
+  },
+  "DM Mono": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500
+   ]
+  },
+  "DM Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Figtree": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Geist": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Geist Mono": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Hanken Grotesk": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "IBM Plex Mono": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "IBM Plex Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Instrument Serif": {
+   "generic": "serif",
+   "weights": [
+    400
+   ]
+  },
+  "Inter": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Inter Tight": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "JetBrains Mono": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Jost": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Lato": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    700
+   ]
+  },
+  "Manrope": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Montserrat": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Newsreader": {
+   "generic": "serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Noto Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Nunito": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Nunito Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Outfit": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Playfair Display": {
+   "generic": "serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Plus Jakarta Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Public Sans": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Questrial": {
+   "generic": "sans-serif",
+   "weights": [
+    400
+   ]
+  },
+  "Roboto Mono": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Rubik": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Source Code Pro": {
+   "generic": "monospace",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Source Serif 4": {
+   "generic": "serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Space Grotesk": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "Syncopate": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    700
+   ]
+  },
+  "Tinos": {
+   "generic": "serif",
+   "weights": [
+    400,
+    700
+   ]
+  },
+  "Titillium Web": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    600,
+    700
+   ]
+  },
+  "Urbanist": {
+   "generic": "sans-serif",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  }
+ },
+ "entries": [
+  {
+   "slug": "airbnb",
+   "name": "Airbnb",
+   "category": "E-commerce & Retail",
+   "blurb": "Travel marketplace. Warm coral accent, photography-driven, rounded UI",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f7f7f7",
+    "#222222",
+    "#ff385c",
+    "#e00b41"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f7f7f7",
+    "ink": "#222222",
+    "ink-muted": "#6a6a6a",
+    "primary": "#ff385c",
+    "on-primary": "#ffffff",
+    "hairline": "#dddddd"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "14px",
+    "lg": "20px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Plus Jakarta Sans",
+     "was": "Airbnb Cereal VF"
+    },
+    "body": {
+     "family": "Plus Jakarta Sans",
+     "was": "Airbnb Cereal VF"
+    }
+   }
+  },
+  {
+   "slug": "airtable",
+   "name": "Airtable",
+   "category": "Design & Creative Tools",
+   "blurb": "Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f8fafc",
+    "#181d26",
+    "#1b61c9",
+    "#0d1218"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f8fafc",
+    "ink": "#181d26",
+    "ink-muted": "#41454d",
+    "primary": "#181d26",
+    "on-primary": "#ffffff",
+    "hairline": "#dddddd",
+    "accent": "#1b61c9"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "Haas Groot Disp"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Haas"
+    }
+   }
+  },
+  {
+   "slug": "apple",
+   "name": "Apple",
+   "category": "Media & Consumer Tech",
+   "blurb": "Consumer electronics. Premium white space, SF Pro, cinematic imagery",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafc",
+    "#1d1d1f",
+    "#0066cc",
+    "#0071e3"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafc",
+    "ink": "#1d1d1f",
+    "ink-muted": "#333333",
+    "primary": "#0066cc",
+    "on-primary": "#ffffff",
+    "hairline": "#e0e0e0"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "11px",
+    "lg": "18px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "SF Pro Display"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "SF Pro Text"
+    }
+   }
+  },
+  {
+   "slug": "binance",
+   "name": "Binance",
+   "category": "Fintech & Crypto",
+   "blurb": "Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#181a20",
+    "#fcd535",
+    "#2dbdb6"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#181a20",
+    "ink-muted": "#707a8a",
+    "primary": "#fcd535",
+    "on-primary": "#181a20",
+    "hairline": "#eaecef",
+    "accent": "#2dbdb6"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Manrope",
+     "was": "BinanceNova"
+    },
+    "body": {
+     "family": "Manrope",
+     "was": "BinanceNova"
+    }
+   }
+  },
+  {
+   "slug": "bmw",
+   "name": "BMW",
+   "category": "Automotive",
+   "blurb": "Luxury automotive. Dark premium surfaces, precise German engineering aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#262626",
+    "#1c69d4",
+    "#0653b6"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#262626",
+    "ink-muted": "#6b6b6b",
+    "primary": "#1c69d4",
+    "on-primary": "#ffffff",
+    "hairline": "#e6e6e6"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Barlow",
+     "was": "BMW Type Next Latin"
+    },
+    "body": {
+     "family": "Barlow",
+     "was": "BMW Type Next Latin"
+    }
+   }
+  },
+  {
+   "slug": "bmw-m",
+   "name": "BMW M",
+   "category": "Automotive",
+   "blurb": "Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#262626",
+    "#ffffff",
+    "#bbbbbb",
+    "#e6e6e6"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#262626",
+    "ink": "#ffffff",
+    "ink-muted": "#7e7e7e",
+    "primary": "#ffffff",
+    "on-primary": "#000000",
+    "hairline": "#3c3c3c"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "6px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Barlow",
+     "was": "BMWTypeNextLatin"
+    },
+    "body": {
+     "family": "Barlow",
+     "was": "BMWTypeNextLatin Light"
+    }
+   }
+  },
+  {
+   "slug": "bugatti",
+   "name": "Bugatti",
+   "category": "Automotive",
+   "blurb": "Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#1f1f1f",
+    "#ffffff",
+    "#c3d9f3",
+    "#cccccc"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#1f1f1f",
+    "ink": "#ffffff",
+    "ink-muted": "#999999",
+    "primary": "#ffffff",
+    "on-primary": "#000000",
+    "hairline": "#262626",
+    "accent": "#c3d9f3"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "4px",
+    "lg": "4px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Syncopate",
+     "was": "Bugatti Display"
+    },
+    "body": {
+     "family": "Montserrat",
+     "was": "Bugatti Text Regular"
+    }
+   }
+  },
+  {
+   "slug": "cal",
+   "name": "Cal.com",
+   "category": "Productivity & SaaS",
+   "blurb": "Open-source scheduling. Clean neutral UI, developer-oriented simplicity",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f5f5f5",
+    "#111111",
+    "#3b82f6",
+    "#242424"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f5f5f5",
+    "ink": "#111111",
+    "ink-muted": "#6b7280",
+    "primary": "#111111",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e7eb",
+    "accent": "#3b82f6"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Cal Sans",
+     "was": "Cal Sans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "claude",
+   "name": "Claude",
+   "category": "AI & LLM Platforms",
+   "blurb": "Anthropic's AI assistant. Warm terracotta accent, clean editorial layout",
+   "theme": "light",
+   "swatches": [
+    "#faf9f5",
+    "#efe9de",
+    "#141413",
+    "#cc785c",
+    "#5db8a6"
+   ],
+   "tokens": {
+    "canvas": "#faf9f5",
+    "surface": "#efe9de",
+    "ink": "#141413",
+    "ink-muted": "#6c6a64",
+    "primary": "#cc785c",
+    "on-primary": "#ffffff",
+    "hairline": "#e6dfd8",
+    "accent": "#5db8a6"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Newsreader",
+     "was": "Copernicus"
+    },
+    "body": {
+     "family": "DM Sans",
+     "was": "StyreneB"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "clay",
+   "name": "Clay",
+   "category": "Design & Creative Tools",
+   "blurb": "Creative agency. Organic shapes, soft gradients, art-directed layout",
+   "theme": "light",
+   "swatches": [
+    "#fffaf0",
+    "#f5f0e0",
+    "#0a0a0a",
+    "#ff4d8b",
+    "#1f1f1f"
+   ],
+   "tokens": {
+    "canvas": "#fffaf0",
+    "surface": "#f5f0e0",
+    "ink": "#0a0a0a",
+    "ink-muted": "#6a6a6a",
+    "primary": "#0a0a0a",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e5e5",
+    "accent": "#ff4d8b"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Archivo Black",
+     "was": "Plain Black"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    }
+   }
+  },
+  {
+   "slug": "clickhouse",
+   "name": "ClickHouse",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Fast analytics database. Yellow-accented, technical documentation style",
+   "theme": "dark",
+   "swatches": [
+    "#0a0a0a",
+    "#242424",
+    "#ffffff",
+    "#faff69",
+    "#22c55e"
+   ],
+   "tokens": {
+    "canvas": "#0a0a0a",
+    "surface": "#242424",
+    "ink": "#ffffff",
+    "ink-muted": "#888888",
+    "primary": "#faff69",
+    "on-primary": "#0a0a0a",
+    "hairline": "#2a2a2a",
+    "accent": "#22c55e"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "cohere",
+   "name": "Cohere",
+   "category": "AI & LLM Platforms",
+   "blurb": "Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e9e9e9",
+    "#212121",
+    "#17171c",
+    "#000000"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e9e9e9",
+    "ink": "#212121",
+    "ink-muted": "#93939f",
+    "primary": "#17171c",
+    "on-primary": "#ffffff",
+    "hairline": "#d9d9dd"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "16px",
+    "lg": "22px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "CohereText"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Unica77 Cohere Web"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "CohereMono"
+    }
+   }
+  },
+  {
+   "slug": "coinbase",
+   "name": "Coinbase",
+   "category": "Fintech & Crypto",
+   "blurb": "Crypto exchange. Clean blue identity, trust-focused, institutional feel",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f7f7f7",
+    "#0a0b0d",
+    "#0052ff",
+    "#f4b000"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f7f7f7",
+    "ink": "#0a0b0d",
+    "ink-muted": "#7c828a",
+    "primary": "#0052ff",
+    "on-primary": "#ffffff",
+    "hairline": "#dee1e6",
+    "accent": "#f4b000"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Figtree",
+     "was": "Coinbase Display"
+    },
+    "body": {
+     "family": "Figtree",
+     "was": "Coinbase Sans"
+    }
+   }
+  },
+  {
+   "slug": "composio",
+   "name": "Composio",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Tool integration platform. Modern dark with colorful integration icons",
+   "theme": "dark",
+   "swatches": [
+    "#0f0f0f",
+    "#181818",
+    "#ffffff",
+    "#0007cd",
+    "#00d4ff"
+   ],
+   "tokens": {
+    "canvas": "#0f0f0f",
+    "surface": "#181818",
+    "ink": "#ffffff",
+    "ink-muted": "#888888",
+    "primary": "#0007cd",
+    "on-primary": "#ffffff",
+    "hairline": "#222222",
+    "accent": "#00d4ff"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Hanken Grotesk",
+     "was": "abcDiatype"
+    },
+    "body": {
+     "family": "Hanken Grotesk",
+     "was": "abcDiatype"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "cursor",
+   "name": "Cursor",
+   "category": "Developer Tools & IDEs",
+   "blurb": "AI-first code editor. Sleek dark interface, gradient accents",
+   "theme": "light",
+   "swatches": [
+    "#f7f7f4",
+    "#ffffff",
+    "#26251e",
+    "#f54e00",
+    "#d04200"
+   ],
+   "tokens": {
+    "canvas": "#f7f7f4",
+    "surface": "#ffffff",
+    "ink": "#26251e",
+    "ink-muted": "#807d72",
+    "primary": "#f54e00",
+    "on-primary": "#ffffff",
+    "hairline": "#e6e5e0"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "CursorGothic"
+    },
+    "body": {
+     "family": "Inter Tight",
+     "was": "CursorGothic"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "dell-1996",
+   "name": "Dell (1996)",
+   "category": "Retro Web · DESIGN.md Nostalgia",
+   "blurb": "Catalog-era enterprise web. Literal black page frame, flat color-block \"ribbon cards\", chunky Helvetica-Black titles over Times Roman body, and hand-cut GIF stickers (NEW! bursts, award seals, beveled product photos).",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e6e6e6",
+    "#000000",
+    "#e91d2a",
+    "#0000ee"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e6e6e6",
+    "ink": "#000000",
+    "ink-muted": "#808080",
+    "primary": "#e91d2a",
+    "on-primary": "#ffffff",
+    "hairline": "#cccccc",
+    "accent": "#0000ee"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "4px",
+    "lg": "4px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Archivo Black",
+     "was": "Arial Black"
+    },
+    "body": {
+     "family": "Tinos",
+     "was": "Times New Roman"
+    }
+   }
+  },
+  {
+   "slug": "expo",
+   "name": "Expo",
+   "category": "Developer Tools & IDEs",
+   "blurb": "React Native platform. Dark theme, tight letter-spacing, code-centric",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#171717",
+    "#000000",
+    "#ab6400"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#171717",
+    "ink-muted": "#60646c",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#f0f0f3",
+    "accent": "#ab6400"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "ferrari",
+   "name": "Ferrari",
+   "category": "Automotive",
+   "blurb": "Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness",
+   "theme": "dark",
+   "swatches": [
+    "#181818",
+    "#303030",
+    "#ffffff",
+    "#da291c",
+    "#fff200"
+   ],
+   "tokens": {
+    "canvas": "#181818",
+    "surface": "#303030",
+    "ink": "#ffffff",
+    "ink-muted": "#666666",
+    "primary": "#da291c",
+    "on-primary": "#ffffff",
+    "hairline": "#303030",
+    "accent": "#fff200"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Titillium Web",
+     "was": "FerrariSans"
+    },
+    "body": {
+     "family": "Titillium Web",
+     "was": "FerrariSans"
+    }
+   }
+  },
+  {
+   "slug": "figma",
+   "name": "Figma",
+   "category": "Design & Creative Tools",
+   "blurb": "Collaborative design tool. Vibrant multi-color, playful yet professional",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f7f7f5",
+    "#000000",
+    "#ff3d8b",
+    "#e6e6e6"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f7f7f5",
+    "ink": "#000000",
+    "ink-muted": "#808080",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#e6e6e6",
+    "accent": "#ff3d8b"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "24px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "figmaSans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "figmaSans"
+    }
+   }
+  },
+  {
+   "slug": "framer",
+   "name": "Framer",
+   "category": "Design & Creative Tools",
+   "blurb": "Website builder. Bold black and blue, motion-first, design-forward",
+   "theme": "dark",
+   "swatches": [
+    "#090909",
+    "#141414",
+    "#ffffff",
+    "#0099ff",
+    "#000000"
+   ],
+   "tokens": {
+    "canvas": "#090909",
+    "surface": "#141414",
+    "ink": "#ffffff",
+    "ink-muted": "#999999",
+    "primary": "#ffffff",
+    "on-primary": "#000000",
+    "hairline": "#262626",
+    "accent": "#0099ff"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "15px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Outfit",
+     "was": "GT Walsheim Framer Medium"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter Variable"
+    }
+   }
+  },
+  {
+   "slug": "hashicorp",
+   "name": "HashiCorp",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Infrastructure automation. Enterprise-clean, black and white",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#15181e",
+    "#ffffff",
+    "#2b89ff",
+    "#b2b6bd"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#15181e",
+    "ink": "#ffffff",
+    "ink-muted": "#b2b6bd",
+    "primary": "#2b89ff",
+    "on-primary": "#ffffff",
+    "hairline": "#3b3d45"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "hashicorpSans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "hashicorpSans"
+    }
+   }
+  },
+  {
+   "slug": "hp",
+   "name": "HP",
+   "category": "Media & Consumer Tech",
+   "blurb": "PC and printer maker. Pure white canvas, HP Electric Blue signal CTA, geometric Forma DJR Micro, blue chevron decorations",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e8e8e8",
+    "#1a1a1a",
+    "#024ad8",
+    "#296ef9"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e8e8e8",
+    "ink": "#1a1a1a",
+    "ink-muted": "#767676",
+    "primary": "#024ad8",
+    "on-primary": "#ffffff",
+    "hairline": "#e8e8e8"
+   },
+   "radius": {
+    "sm": "3px",
+    "md": "4px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Public Sans",
+     "was": "Forma DJR Micro"
+    },
+    "body": {
+     "family": "Public Sans",
+     "was": "Forma DJR Micro"
+    }
+   }
+  },
+  {
+   "slug": "ibm",
+   "name": "IBM",
+   "category": "Media & Consumer Tech",
+   "blurb": "Enterprise technology. Carbon design system, structured blue palette",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f4f4f4",
+    "#161616",
+    "#0f62fe",
+    "#525252"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f4f4f4",
+    "ink": "#161616",
+    "ink-muted": "#525252",
+    "primary": "#0f62fe",
+    "on-primary": "#ffffff",
+    "hairline": "#e0e0e0"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "IBM Plex Sans",
+     "was": "IBM Plex Sans"
+    },
+    "body": {
+     "family": "IBM Plex Sans",
+     "was": "IBM Plex Sans"
+    }
+   }
+  },
+  {
+   "slug": "intercom",
+   "name": "Intercom",
+   "category": "Productivity & SaaS",
+   "blurb": "Customer messaging. Friendly blue palette, conversational UI patterns",
+   "theme": "light",
+   "swatches": [
+    "#f5f1ec",
+    "#ffffff",
+    "#111111",
+    "#0007cb",
+    "#626260"
+   ],
+   "tokens": {
+    "canvas": "#f5f1ec",
+    "surface": "#ffffff",
+    "ink": "#111111",
+    "ink-muted": "#626260",
+    "primary": "#111111",
+    "on-primary": "#ffffff",
+    "hairline": "#d3cec6",
+    "accent": "#0007cb"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Figtree",
+     "was": "Saans"
+    },
+    "body": {
+     "family": "Figtree",
+     "was": "Saans"
+    },
+    "mono": {
+     "family": "DM Mono",
+     "was": "SaansMono"
+    }
+   }
+  },
+  {
+   "slug": "linear.app",
+   "name": "Linear",
+   "category": "Productivity & SaaS",
+   "blurb": "Project management for engineers. Ultra-minimal, precise, purple accent",
+   "theme": "dark",
+   "swatches": [
+    "#010102",
+    "#0f1011",
+    "#f7f8f8",
+    "#5e6ad2",
+    "#7a7fad"
+   ],
+   "tokens": {
+    "canvas": "#010102",
+    "surface": "#0f1011",
+    "ink": "#f7f8f8",
+    "ink-muted": "#d0d6e0",
+    "primary": "#5e6ad2",
+    "on-primary": "#ffffff",
+    "hairline": "#23252a",
+    "accent": "#7a7fad"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Linear Display"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Linear Text"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "Linear Mono"
+    }
+   }
+  },
+  {
+   "slug": "meta",
+   "name": "Meta",
+   "category": "E-commerce & Retail",
+   "blurb": "Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f1f4f7",
+    "#1c1e21",
+    "#0064e0",
+    "#0457cb"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f1f4f7",
+    "ink": "#1c1e21",
+    "ink-muted": "#8595a4",
+    "primary": "#0064e0",
+    "on-primary": "#ffffff",
+    "hairline": "#ced0d4"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Optimistic VF"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Optimistic VF"
+    }
+   }
+  },
+  {
+   "slug": "minimax",
+   "name": "Minimax",
+   "category": "AI & LLM Platforms",
+   "blurb": "AI model provider. Bold dark interface with neon accents",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f2f3f5",
+    "#0a0a0a",
+    "#ff5530",
+    "#181e25"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f2f3f5",
+    "ink": "#0a0a0a",
+    "ink-muted": "#8e8e93",
+    "primary": "#0a0a0a",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e7eb",
+    "accent": "#ff5530"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "DM Sans",
+     "was": "DM Sans"
+    },
+    "body": {
+     "family": "DM Sans",
+     "was": "DM Sans"
+    }
+   }
+  },
+  {
+   "slug": "mintlify",
+   "name": "Mintlify",
+   "category": "Productivity & SaaS",
+   "blurb": "Documentation platform. Clean, green-accented, reading-optimized",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#0a0a0a",
+    "#00d4a4",
+    "#00b48a"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#0a0a0a",
+    "ink-muted": "#888888",
+    "primary": "#0a0a0a",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e5e5",
+    "accent": "#00d4a4"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "Geist Mono",
+     "was": "Geist Mono"
+    }
+   }
+  },
+  {
+   "slug": "miro",
+   "name": "Miro",
+   "category": "Design & Creative Tools",
+   "blurb": "Visual collaboration. Bright yellow accent, infinite canvas aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafbfc",
+    "#1c1c1e",
+    "#ffd02f",
+    "#fcb900"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafbfc",
+    "ink": "#1c1c1e",
+    "ink-muted": "#8e91a0",
+    "primary": "#1c1c1e",
+    "on-primary": "#ffffff",
+    "hairline": "#e0e2e8",
+    "accent": "#ffd02f"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Manrope",
+     "was": "Roobert PRO"
+    },
+    "body": {
+     "family": "Manrope",
+     "was": "Roobert PRO"
+    }
+   }
+  },
+  {
+   "slug": "mistral.ai",
+   "name": "Mistral AI",
+   "category": "AI & LLM Platforms",
+   "blurb": "Open-weight LLM provider. French-engineered minimalism, purple-toned",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#1f1f1f",
+    "#fa520f",
+    "#cc3a05"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#1f1f1f",
+    "ink-muted": "#8a8a8a",
+    "primary": "#fa520f",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e5e5"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Instrument Serif",
+     "was": "PP Editorial Old"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "JetBrains Mono"
+    }
+   }
+  },
+  {
+   "slug": "mongodb",
+   "name": "MongoDB",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Document database. Green leaf branding, developer documentation focus",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f4f7f6",
+    "#001e2b",
+    "#00ed64",
+    "#7b3ff2"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f4f7f6",
+    "ink": "#001e2b",
+    "ink-muted": "#7c8c9a",
+    "primary": "#00ed64",
+    "on-primary": "#001e2b",
+    "hairline": "#e1e5e8",
+    "accent": "#7b3ff2"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Outfit",
+     "was": "Euclid Circular A"
+    },
+    "body": {
+     "family": "Outfit",
+     "was": "Euclid Circular A"
+    },
+    "mono": {
+     "family": "Source Code Pro",
+     "was": "Source Code Pro"
+    }
+   }
+  },
+  {
+   "slug": "nike",
+   "name": "Nike",
+   "category": "E-commerce & Retail",
+   "blurb": "Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e7e7e7",
+    "#111111",
+    "#ed1aa0",
+    "#f5f5f5"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e7e7e7",
+    "ink": "#111111",
+    "ink-muted": "#707072",
+    "primary": "#111111",
+    "on-primary": "#ffffff",
+    "hairline": "#cacacb",
+    "accent": "#ed1aa0"
+   },
+   "radius": {
+    "sm": "18px",
+    "md": "24px",
+    "lg": "30px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Anton",
+     "was": "Nike Futura ND"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Helvetica Now Text"
+    }
+   }
+  },
+  {
+   "slug": "nintendo-2001",
+   "name": "Nintendo.com (2001)",
+   "category": "Retro Web · DESIGN.md Nostalgia",
+   "blurb": "Y2K \"console chrome\" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art wordmarks over circuit-board hero fields, and a pixel Mario welcome bubble.",
+   "theme": "dark",
+   "swatches": [
+    "#7a8aba",
+    "#8796c1",
+    "#21242e",
+    "#e60012",
+    "#f68d1f"
+   ],
+   "tokens": {
+    "canvas": "#7a8aba",
+    "surface": "#8796c1",
+    "ink": "#21242e",
+    "ink-muted": "#2a2e3c",
+    "primary": "#e60012",
+    "on-primary": "#ffffff",
+    "hairline": "#5a5f8c"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "10px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Archivo Black",
+     "was": "Arial Black"
+    },
+    "body": {
+     "family": "Arimo",
+     "was": "Arial"
+    }
+   }
+  },
+  {
+   "slug": "notion",
+   "name": "Notion",
+   "category": "Productivity & SaaS",
+   "blurb": "All-in-one workspace. Warm minimalism, serif headings, soft surfaces",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafaf9",
+    "#1a1a1a",
+    "#5645d4",
+    "#0a1530"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafaf9",
+    "ink": "#1a1a1a",
+    "ink-muted": "#5d5b54",
+    "primary": "#5645d4",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e3df",
+    "accent": "#0a1530"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Notion Sans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Notion Sans"
+    }
+   }
+  },
+  {
+   "slug": "nvidia",
+   "name": "NVIDIA",
+   "category": "Media & Consumer Tech",
+   "blurb": "GPU computing. Green-black energy, technical power aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f7f7f7",
+    "#000000",
+    "#76b900",
+    "#feeeb2"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f7f7f7",
+    "ink": "#000000",
+    "ink-muted": "#757575",
+    "primary": "#76b900",
+    "on-primary": "#000000",
+    "hairline": "#cccccc",
+    "accent": "#feeeb2"
+   },
+   "radius": {
+    "sm": "2px",
+    "md": "2px",
+    "lg": "2px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Barlow",
+     "was": "NVIDIA-EMEA"
+    },
+    "body": {
+     "family": "Barlow",
+     "was": "NVIDIA-EMEA"
+    }
+   }
+  },
+  {
+   "slug": "ollama",
+   "name": "Ollama",
+   "category": "AI & LLM Platforms",
+   "blurb": "Run LLMs locally. Terminal-first, monochrome simplicity",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#000000",
+    "#090909",
+    "#525252"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#000000",
+    "ink-muted": "#737373",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#e5e5e5"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Nunito",
+     "was": "SF Pro Rounded"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "ui-sans-serif"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "ui-monospace"
+    }
+   }
+  },
+  {
+   "slug": "opencode.ai",
+   "name": "OpenCode AI",
+   "category": "AI & LLM Platforms",
+   "blurb": "AI coding platform. Developer-centric dark theme",
+   "theme": "light",
+   "swatches": [
+    "#fdfcfc",
+    "#f1eeee",
+    "#201d1d",
+    "#007aff",
+    "#0f0000"
+   ],
+   "tokens": {
+    "canvas": "#fdfcfc",
+    "surface": "#f1eeee",
+    "ink": "#201d1d",
+    "ink-muted": "#646262",
+    "primary": "#201d1d",
+    "on-primary": "#fdfcfc",
+    "hairline": "#d1cfcf",
+    "accent": "#007aff"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "4px",
+    "lg": "4px"
+   },
+   "fonts": {
+    "display": {
+     "family": "IBM Plex Mono",
+     "was": "Berkeley Mono"
+    },
+    "body": {
+     "family": "IBM Plex Mono",
+     "was": "Berkeley Mono"
+    }
+   }
+  },
+  {
+   "slug": "pinterest",
+   "name": "Pinterest",
+   "category": "Media & Consumer Tech",
+   "blurb": "Visual discovery platform. Red accent, masonry grid, image-first",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f6f6f3",
+    "#000000",
+    "#e60023",
+    "#617bff"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f6f6f3",
+    "ink": "#000000",
+    "ink-muted": "#62625b",
+    "primary": "#e60023",
+    "on-primary": "#ffffff",
+    "hairline": "#dadad3",
+    "accent": "#617bff"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "16px",
+    "lg": "32px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Pin Sans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Pin Sans"
+    }
+   }
+  },
+  {
+   "slug": "playstation",
+   "name": "PlayStation",
+   "category": "Media & Consumer Tech",
+   "blurb": "Gaming console retail. Three-surface channel layout, cyan hover-scale interaction",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f5f7fa",
+    "#000000",
+    "#0070d1",
+    "#0064b7"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f5f7fa",
+    "ink": "#000000",
+    "ink-muted": "#808080",
+    "primary": "#0070d1",
+    "on-primary": "#ffffff",
+    "hairline": "#f3f3f3"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Noto Sans",
+     "was": "PlayStation SST"
+    },
+    "body": {
+     "family": "Noto Sans",
+     "was": "PlayStation SST"
+    }
+   }
+  },
+  {
+   "slug": "posthog",
+   "name": "PostHog",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Product analytics. Playful hedgehog branding, developer-friendly dark UI",
+   "theme": "light",
+   "swatches": [
+    "#eeefe9",
+    "#ffffff",
+    "#23251d",
+    "#f7a501",
+    "#2c84e0"
+   ],
+   "tokens": {
+    "canvas": "#eeefe9",
+    "surface": "#ffffff",
+    "ink": "#23251d",
+    "ink-muted": "#6c6e63",
+    "primary": "#f7a501",
+    "on-primary": "#23251d",
+    "hairline": "#bfc1b7",
+    "accent": "#2c84e0"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "IBM Plex Sans",
+     "was": "IBM Plex Sans Variable"
+    },
+    "body": {
+     "family": "IBM Plex Sans",
+     "was": "IBM Plex Sans Variable"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "ui-monospace"
+    }
+   }
+  },
+  {
+   "slug": "renault",
+   "name": "Renault",
+   "category": "Automotive",
+   "blurb": "French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f7f7f7",
+    "#000000",
+    "#ffed00",
+    "#0000ee"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f7f7f7",
+    "ink": "#000000",
+    "ink-muted": "#666666",
+    "primary": "#ffed00",
+    "on-primary": "#000000",
+    "hairline": "#f2f2f2",
+    "accent": "#0000ee"
+   },
+   "radius": {
+    "sm": "3px",
+    "md": "4px",
+    "lg": "4px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Montserrat",
+     "was": "NouvelR"
+    },
+    "body": {
+     "family": "Montserrat",
+     "was": "NouvelR"
+    }
+   }
+  },
+  {
+   "slug": "replicate",
+   "name": "Replicate",
+   "category": "AI & LLM Platforms",
+   "blurb": "Run ML models via API. Clean white canvas, code-forward",
+   "theme": "light",
+   "swatches": [
+    "#f9f7f3",
+    "#ffffff",
+    "#202020",
+    "#ea2804",
+    "#c01f00"
+   ],
+   "tokens": {
+    "canvas": "#f9f7f3",
+    "surface": "#ffffff",
+    "ink": "#202020",
+    "ink-muted": "#646464",
+    "primary": "#ea2804",
+    "on-primary": "#ffffff",
+    "hairline": "#ceccc9"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Space Grotesk",
+     "was": "rb-freigeist-neue"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "basier-square"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "jetbrains-mono"
+    }
+   }
+  },
+  {
+   "slug": "resend",
+   "name": "Resend",
+   "category": "Productivity & SaaS",
+   "blurb": "Email API for developers. Minimal dark theme, monospace accents",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#101012",
+    "#fcfdff",
+    "#ff801f",
+    "#a1a4a5"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#101012",
+    "ink": "#fcfdff",
+    "ink-muted": "#a1a4a5",
+    "primary": "#fcfdff",
+    "on-primary": "#000000",
+    "hairline": "#323333",
+    "accent": "#ff801f"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Playfair Display",
+     "was": "Domaine Display"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "Geist Mono",
+     "was": "Geist Mono"
+    }
+   }
+  },
+  {
+   "slug": "revolut",
+   "name": "Revolut",
+   "category": "Fintech & Crypto",
+   "blurb": "Digital banking. Sleek dark interface, gradient cards, fintech precision",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f4f4f4",
+    "#191c1f",
+    "#494fdf",
+    "#00a87e"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f4f4f4",
+    "ink": "#191c1f",
+    "ink-muted": "#505a63",
+    "primary": "#494fdf",
+    "on-primary": "#ffffff",
+    "hairline": "#e2e2e7",
+    "accent": "#00a87e"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "20px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Urbanist",
+     "was": "Aeonik Pro"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    }
+   }
+  },
+  {
+   "slug": "sentry",
+   "name": "Sentry",
+   "category": "Backend, Database & DevOps",
+   "blurb": "Error monitoring. Dark dashboard, data-dense, pink-purple accent",
+   "theme": "dark",
+   "swatches": [
+    "#1f1633",
+    "#150f23",
+    "#ffffff",
+    "#c2ef4e",
+    "#fa7faa"
+   ],
+   "tokens": {
+    "canvas": "#1f1633",
+    "surface": "#150f23",
+    "ink": "#ffffff",
+    "ink-muted": "#bdb8c0",
+    "primary": "#c2ef4e",
+    "on-primary": "#000000",
+    "hairline": "#362d59",
+    "accent": "#fa7faa"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "10px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Rubik",
+     "was": "Sentri Display"
+    },
+    "body": {
+     "family": "Rubik",
+     "was": "Rubik"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "Monaco"
+    }
+   }
+  },
+  {
+   "slug": "shopify",
+   "name": "Shopify",
+   "category": "E-commerce & Retail",
+   "blurb": "E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#1e2c31",
+    "#ffffff",
+    "#0a0a0a",
+    "#fbfbf5"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#1e2c31",
+    "ink": "#ffffff",
+    "ink-muted": "#666666",
+    "primary": "#ffffff",
+    "on-primary": "#000000",
+    "hairline": "#1e2c31"
+   },
+   "radius": {
+    "sm": "5px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "NeueHaasGrotesk Display"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter Variable"
+    },
+    "mono": {
+     "family": "JetBrains Mono",
+     "was": "ui-monospace"
+    }
+   }
+  },
+  {
+   "slug": "slack",
+   "name": "Slack",
+   "category": "Other",
+   "blurb": "An inspired interpretation of Slacc's design language — a workplace messaging brand built on a deep aubergine primary, with cream-lavender h",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e8e8e8",
+    "#1d1d1d",
+    "#4a154b",
+    "#481a54"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e8e8e8",
+    "ink": "#1d1d1d",
+    "ink-muted": "#777777",
+    "primary": "#4a154b",
+    "on-primary": "#ffffff",
+    "hairline": "#e6e6e6"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Questrial",
+     "was": "Salesforce-Avant-Garde"
+    },
+    "body": {
+     "family": "Lato",
+     "was": "Salesforce-Sans"
+    }
+   }
+  },
+  {
+   "slug": "spacex",
+   "name": "SpaceX",
+   "category": "Media & Consumer Tech",
+   "blurb": "Space technology. Stark black and white, full-bleed imagery, futuristic",
+   "theme": "dark",
+   "swatches": [
+    "#000000",
+    "#1a1a1a",
+    "#ffffff",
+    "#f0f0fa",
+    "#0a0a0a"
+   ],
+   "tokens": {
+    "canvas": "#000000",
+    "surface": "#1a1a1a",
+    "ink": "#ffffff",
+    "ink-muted": "#666666",
+    "primary": "#ffffff",
+    "on-primary": "#000000",
+    "hairline": "#3a3a3f"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "16px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Barlow",
+     "was": "D-DIN-Bold"
+    },
+    "body": {
+     "family": "Barlow",
+     "was": "D-DIN"
+    }
+   }
+  },
+  {
+   "slug": "stripe",
+   "name": "Stripe",
+   "category": "Fintech & Crypto",
+   "blurb": "Payment infrastructure. Signature purple gradients, weight-300 elegance",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f6f9fc",
+    "#0d253d",
+    "#533afd",
+    "#1c1e54"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f6f9fc",
+    "ink": "#0d253d",
+    "ink-muted": "#6e7c8b",
+    "primary": "#533afd",
+    "on-primary": "#ffffff",
+    "hairline": "#e3e8ee",
+    "accent": "#1c1e54"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "sohne-var"
+    },
+    "body": {
+     "family": "Inter Tight",
+     "was": "sohne-var"
+    }
+   }
+  },
+  {
+   "slug": "superhuman",
+   "name": "Superhuman",
+   "category": "Developer Tools & IDEs",
+   "blurb": "Fast email client. Premium dark UI, keyboard-first, purple glow",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafaf8",
+    "#292827",
+    "#1b1938",
+    "#0e0c1f"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafaf8",
+    "ink": "#292827",
+    "ink-muted": "#7f7e7d",
+    "primary": "#1b1938",
+    "on-primary": "#ffffff",
+    "hairline": "#e8e4dd"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Super Sans VF"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Super Sans VF"
+    }
+   }
+  },
+  {
+   "slug": "together.ai",
+   "name": "Together AI",
+   "category": "AI & LLM Platforms",
+   "blurb": "Open-source AI infrastructure. Technical, blueprint-style design",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e6e6e6",
+    "#000000",
+    "#fc4c02",
+    "#959494"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e6e6e6",
+    "ink": "#000000",
+    "ink-muted": "#959494",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#cccccc",
+    "accent": "#fc4c02"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Jost",
+     "was": "The Future"
+    },
+    "body": {
+     "family": "Jost",
+     "was": "The Future"
+    },
+    "mono": {
+     "family": "DM Mono",
+     "was": "PP Neue Montreal Mono"
+    }
+   }
+  },
+  {
+   "slug": "uber",
+   "name": "Uber",
+   "category": "Media & Consumer Tech",
+   "blurb": "Mobility platform. Bold black and white, tight type, urban energy",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#efefef",
+    "#000000",
+    "#0000ee",
+    "#5e5e5e"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#efefef",
+    "ink": "#000000",
+    "ink-muted": "#5e5e5e",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#cccccc",
+    "accent": "#0000ee"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter Tight",
+     "was": "UberMove"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "UberMoveText"
+    }
+   }
+  },
+  {
+   "slug": "vercel",
+   "name": "Vercel",
+   "category": "Developer Tools & IDEs",
+   "blurb": "Frontend deployment platform. Black and white precision, Geist font",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#fafafa",
+    "#171717",
+    "#0070f3",
+    "#4d4d4d"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#fafafa",
+    "ink": "#171717",
+    "ink-muted": "#888888",
+    "primary": "#171717",
+    "on-primary": "#ffffff",
+    "hairline": "#ebebeb",
+    "accent": "#0070f3"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Geist",
+     "was": "Geist"
+    },
+    "body": {
+     "family": "Geist",
+     "was": "Geist"
+    },
+    "mono": {
+     "family": "Geist Mono",
+     "was": "Geist Mono"
+    }
+   }
+  },
+  {
+   "slug": "vodafone",
+   "name": "Vodafone",
+   "category": "Media & Consumer Tech",
+   "blurb": "Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f2f2f2",
+    "#25282b",
+    "#e60000",
+    "#7e7e7e"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f2f2f2",
+    "ink": "#25282b",
+    "ink-muted": "#7e7e7e",
+    "primary": "#e60000",
+    "on-primary": "#ffffff",
+    "hairline": "#d3d4d5"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "6px",
+    "lg": "6px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Nunito Sans",
+     "was": "Vodafone"
+    },
+    "body": {
+     "family": "Nunito Sans",
+     "was": "Vodafone"
+    }
+   }
+  },
+  {
+   "slug": "voltagent",
+   "name": "VoltAgent",
+   "category": "AI & LLM Platforms",
+   "blurb": "AI agent framework. Void-black canvas, emerald accent, terminal-native",
+   "theme": "dark",
+   "swatches": [
+    "#101010",
+    "#1a1a1a",
+    "#f2f2f2",
+    "#00d992",
+    "#2fd6a1"
+   ],
+   "tokens": {
+    "canvas": "#101010",
+    "surface": "#1a1a1a",
+    "ink": "#f2f2f2",
+    "ink-muted": "#8b949e",
+    "primary": "#00d992",
+    "on-primary": "#101010",
+    "hairline": "#3d3a39"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "8px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "Inter",
+     "was": "Inter"
+    }
+   }
+  },
+  {
+   "slug": "warp",
+   "name": "Warp",
+   "category": "Developer Tools & IDEs",
+   "blurb": "Modern terminal. Dark IDE-like interface, block-based command UI",
+   "theme": "dark",
+   "swatches": [
+    "#2b2622",
+    "#383330",
+    "#f7f5f0",
+    "#c9c0ad",
+    "#dad2c1"
+   ],
+   "tokens": {
+    "canvas": "#2b2622",
+    "surface": "#383330",
+    "ink": "#f7f5f0",
+    "ink-muted": "#aea69c",
+    "primary": "#f7f5f0",
+    "on-primary": "#2b2622",
+    "hairline": "#3f3a36"
+   },
+   "radius": {
+    "sm": "3px",
+    "md": "4px",
+    "lg": "6px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    },
+    "mono": {
+     "family": "DM Mono",
+     "was": "DM Mono"
+    }
+   }
+  },
+  {
+   "slug": "webflow",
+   "name": "Webflow",
+   "category": "Design & Creative Tools",
+   "blurb": "Visual web builder. Blue-accented, polished marketing site aesthetic",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e6e6e6",
+    "#080808",
+    "#7a3dff",
+    "#222222"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e6e6e6",
+    "ink": "#080808",
+    "ink-muted": "#898989",
+    "primary": "#080808",
+    "on-primary": "#ffffff",
+    "hairline": "#d8d8d8",
+    "accent": "#7a3dff"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "WF Visual Sans Variable"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "WF Visual Sans Variable"
+    },
+    "mono": {
+     "family": "Roboto Mono",
+     "was": "WFVisualSans-Mono"
+    }
+   }
+  },
+  {
+   "slug": "wired",
+   "name": "WIRED",
+   "category": "Media & Consumer Tech",
+   "blurb": "Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#f5f5f5",
+    "#000000",
+    "#057dbc",
+    "#1a1a1a"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#f5f5f5",
+    "ink": "#000000",
+    "ink-muted": "#757575",
+    "primary": "#000000",
+    "on-primary": "#ffffff",
+    "hairline": "#e0e0e0",
+    "accent": "#057dbc"
+   },
+   "radius": {
+    "sm": "4px",
+    "md": "4px",
+    "lg": "4px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Playfair Display",
+     "was": "WiredDisplay"
+    },
+    "body": {
+     "family": "Source Serif 4",
+     "was": "BreveText"
+    }
+   }
+  },
+  {
+   "slug": "wise",
+   "name": "Wise",
+   "category": "Fintech & Crypto",
+   "blurb": "International money transfer. Bright green accent, friendly and clear",
+   "theme": "light",
+   "swatches": [
+    "#ffffff",
+    "#e8ebe6",
+    "#0e0f0c",
+    "#9fe870",
+    "#ffc091"
+   ],
+   "tokens": {
+    "canvas": "#ffffff",
+    "surface": "#e8ebe6",
+    "ink": "#0e0f0c",
+    "ink-muted": "#868685",
+    "primary": "#9fe870",
+    "on-primary": "#0e0f0c",
+    "hairline": "#cfcfce",
+    "accent": "#ffc091"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Figtree",
+     "was": "Wise Sans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    }
+   }
+  },
+  {
+   "slug": "x.ai",
+   "name": "xAI",
+   "category": "AI & LLM Platforms",
+   "blurb": "Elon Musk's AI lab. Stark monochrome, futuristic minimalism",
+   "theme": "dark",
+   "swatches": [
+    "#0a0a0a",
+    "#1a1c20",
+    "#ffffff",
+    "#ff7a17",
+    "#fafaf7"
+   ],
+   "tokens": {
+    "canvas": "#0a0a0a",
+    "surface": "#1a1c20",
+    "ink": "#ffffff",
+    "ink-muted": "#7d8187",
+    "primary": "#ffffff",
+    "on-primary": "#0a0a0a",
+    "hairline": "#212327",
+    "accent": "#ff7a17"
+   },
+   "radius": {
+    "sm": "8px",
+    "md": "8px",
+    "lg": "8px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Inter",
+     "was": "universalSans"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "universalSans"
+    },
+    "mono": {
+     "family": "Geist Mono",
+     "was": "GeistMono"
+    }
+   }
+  },
+  {
+   "slug": "zapier",
+   "name": "Zapier",
+   "category": "Productivity & SaaS",
+   "blurb": "Automation platform. Warm orange, friendly illustration-driven",
+   "theme": "light",
+   "swatches": [
+    "#fffefb",
+    "#f8f4f0",
+    "#201515",
+    "#ff4f00",
+    "#2f2a26"
+   ],
+   "tokens": {
+    "canvas": "#fffefb",
+    "surface": "#f8f4f0",
+    "ink": "#201515",
+    "ink-muted": "#605d52",
+    "primary": "#ff4f00",
+    "on-primary": "#fffefb",
+    "hairline": "#d2cfcd"
+   },
+   "radius": {
+    "sm": "6px",
+    "md": "12px",
+    "lg": "12px"
+   },
+   "fonts": {
+    "display": {
+     "family": "Urbanist",
+     "was": "Degular Display"
+    },
+    "body": {
+     "family": "Inter",
+     "was": "Inter"
+    }
+   }
+  }
+ ]
+}

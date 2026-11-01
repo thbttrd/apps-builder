@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tip Splitter</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&family=DM+Sans:wght@400;500;600&display=swap">
+  <style>
+    :root {
+      --color-canvas: #faf9f5;
+      --color-surface: #efe9de;
+      --color-ink: #141413;
+      --color-ink-muted: #6c6a64;
+      --color-primary: #cc785c;
+      --color-on-primary: #ffffff;
+      --color-hairline: #e6dfd8;
+      --color-accent: #5db8a6;
+      --font-display: "Newsreader", serif;
+      --font-body: "DM Sans", sans-serif;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--color-canvas); color: var(--color-ink); font-family: var(--font-body); }
+    body { margin: 0; min-height: 100dvh; }
+    button, input { font: inherit; color: inherit; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid var(--color-hairline); }
+    h1 { font-family: var(--font-display); font-weight: 600; font-size: 24px; margin: 0; }
+    .meta { color: var(--color-ink-muted); font-size: 14px; }
+    main { display: grid; gap: 20px; padding: 20px; }
+    .card { background: var(--color-surface); border-radius: var(--radius-lg); padding: 20px; }
+    h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin: 0 0 12px; }
+    label { display: block; font-size: 14px; color: var(--color-ink-muted); margin: 12px 0 6px; }
+    input[type=text] { width: 100%; padding: 12px; background: var(--color-canvas); border: 1px solid var(--color-hairline); border-radius: var(--radius-md); }
+    input::placeholder { color: var(--color-ink-muted); }
+    input[type=range] { width: 100%; accent-color: var(--color-primary); }
+    .people { display: flex; gap: 8px; }
+    .chip { padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--color-hairline); background: transparent; }
+    .chip.on { background: var(--color-ink); color: var(--color-canvas); border-color: var(--color-ink); }
+    .go { width: 100%; margin-top: 16px; padding: 14px; border: 0; border-radius: var(--radius-md); background: var(--color-primary); color: var(--color-on-primary); font-weight: 600; box-shadow: 0 1px 2px rgba(0, 0, 0, .08); }
+    .total { font-family: var(--font-display); font-size: 40px; font-weight: 600; margin: 4px 0; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--color-hairline); }
+    li:last-child { border-bottom: 0; }
+    .tag { color: var(--color-accent); font-weight: 600; }
+    @media (min-width: 768px) { main { grid-template-columns: 1fr 1fr; padding: 32px; } }
+    @media (min-width: 1024px) { main { grid-template-columns: 2fr 3fr; max-width: 1100px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tip Splitter</h1>
+    <span class="meta">Dinner at Marlow's · 4 people</span>
+  </header>
+  <main>
+    <section class="card">
+      <h2>The bill</h2>
+      <label for="amount">Total on the receipt</label>
+      <input id="amount" type="text" value="€186.40" placeholder="Amount">
+      <label for="tip">Tip: 12%</label>
+      <input id="tip" type="range" min="0" max="25" value="12">
+      <label>People</label>
+      <div class="people">
+        <button class="chip">2</button>
+        <button class="chip">3</button>
+        <button class="chip on">4</button>
+        <button class="chip">5</button>
+      </div>
+      <button class="go">Split the bill</button>
+    </section>
+    <section class="card">
+      <h2>Each pays</h2>
+      <p class="total">€52.20</p>
+      <p class="meta">€186.40 + €22.37 tip, rounded to the cent</p>
+      <ul>
+        <li><span>Ana</span><span>€52.20</span></li>
+        <li><span>Jonas</span><span>€52.20</span></li>
+        <li><span>Priya</span><span>€52.20</span></li>
+        <li><span>Tom <span class="tag">paid the card</span></span><span>€52.20</span></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

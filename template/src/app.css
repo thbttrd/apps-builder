@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+/*
+ * The app's look, as tokens: every colour, font and radius it is styled with. Tailwind makes a
+ * class of each — bg-canvas, bg-surface, text-ink, text-ink-muted, bg-primary with
+ * text-on-primary, border-hairline, font-display, font-body, rounded-sm/md/lg — and the /N
+ * opacities of the colours, so changing the look is changing these.
+ */
+@theme {
+  --color-canvas: #fafafa;
+  --color-surface: #ffffff;
+  --color-ink: #171717;
+  --color-ink-muted: #737373;
+  --color-primary: #171717;
+  --color-on-primary: #ffffff;
+  --color-hairline: #e5e5e5;
+  --font-display:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-body:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --default-font-family: var(--font-body);
+}

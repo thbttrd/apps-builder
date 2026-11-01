@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>apps-builder</title>
+    <script>
+      /*
+        The first paint, and only the first. src/theme.ts owns the setting; it arrives
+        with the bundle, which is a whole page render too late — the app would show the
+        light palette and then swap, on every load, for everyone who chose dark.
+
+        Deliberately a second copy of the same two rules rather than an import: a module
+        cannot run before the parser reaches this line. It is kept honest by being tiny,
+        and by the fact that the two agreeing is what the absence of a flash means. The
+        key and the attribute are the contract between them.
+      */
+      try {
+        var stored = localStorage.getItem('ab-theme')
+      } catch (e) {
+        /* Storage can throw rather than return null; the OS query below still answers. */
+      }
+      document.documentElement.dataset.theme =
+        stored === 'light' || stored === 'dark'
+          ? stored
+          : matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light'
+    </script>
+  </head>
+  <body class="h-full">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

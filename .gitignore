@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+data/
+*.db
+*.db-wal
+*.db-shm
+test-results/
+playwright-report/
+.astro/
+.check-projects/
+.check-tests/
+.playwright-mcp/
+.claude/settings.local.json
+.check-browser/
+.check-home/

@@ -1,0 +1,49 @@
+{
+  "name": "apps-builder",
+  "version": "0.27.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted Lovable clone — chat to app, live preview, ship to podman",
+  "engines": {
+    "bun": ">=1.4"
+  },
+  "scripts": {
+    "dev": "trap 'kill 0' EXIT; bun --watch server/api.ts & vite",
+    "dev:api": "bun --watch server/api.ts",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "bun server/api.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test --timeout 120000",
+    "check": "bun run build && bun run test && bun scripts/check-preview.ts",
+    "release": "bun scripts/release.ts"
+  },
+  "dependencies": {
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/lang-css": "6.3.1",
+    "@codemirror/lang-html": "6.4.12",
+    "@codemirror/lang-javascript": "6.2.5",
+    "@codemirror/lang-json": "6.0.2",
+    "@codemirror/language": "6.12.4",
+    "@codemirror/state": "6.7.5",
+    "@codemirror/view": "6.43.12",
+    "@lezer/highlight": "1.2.3",
+    "@openrouter/ai-sdk-provider": "^3.1.0",
+    "ai": "^7.0.107",
+    "hono": "4.13.8",
+    "playwright-core": "1.63.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/bun": "1.4.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.0"
+  }
+}

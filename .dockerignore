@@ -1,0 +1,13 @@
+# Build context for deploy/*.Dockerfile: the repo root, minus what is built inside or never shipped.
+**/node_modules
+dist
+.git
+.check-projects
+.check-tests
+.claude
+shots
+specs
+test-results
+playwright-report
+.env
+.env.local
